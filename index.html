@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js" defer></script>
   <title>Expense Tracker</title>
 </head>
@@ -25,10 +26,10 @@
         <p class="type-title">Spending - Last 7 days</p>
       </div>
 
-      <div class="chart">
-
-      </div>
-
+      <canvas id="myChart">
+        
+      </canvas>
+      
       <div class="monthly-summary">
         <div class="monthly-total">
           <p class="title">Total this month</p>

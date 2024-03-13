@@ -32,7 +32,6 @@ body{
 .section{
     width:100%;
     display: grid;
-    grid-template-rows: 1fr 2fr;
     gap:15px;
 }
 
@@ -71,9 +70,9 @@ body{
     letter-spacing: 1px;
 }
 
-.chart{
+#myChart{
     padding-bottom:15px;
-    border-bottom: 1px solid var(--secondary-text);
+    border-bottom: 0.5px solid var(--secondary-text);
 }
 
 .monthly-summary{
@@ -111,6 +110,10 @@ body{
     .header,
     .chart-section{
         padding:20px;
+    }
+
+    #myChart{
+        width:100%;
     }
 }
 
