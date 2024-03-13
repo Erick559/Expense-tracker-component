@@ -18,3 +18,23 @@
     box-sizing: border-box;
     font-family: 'DM Sans' sans-serif;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--primary-bg);
+    padding:15px;
+}
+
+.section{
+    width:100%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap:15px;
+}
+
+
+
+
