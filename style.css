@@ -46,7 +46,7 @@ body{
 .header,
 .chart-section{
     border-radius:10px;
-    padding:20px;
+    padding:25px;
 }
 
 .balance-section{
@@ -57,6 +57,55 @@ body{
     font-size: 25px;
     font-weight: 700;
 }
+
+.chart-section{
+    background: hsl(33, 100%, 98%);
+    display: grid;
+    gap:25px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+    color:var(--primary-text);
+    letter-spacing: 1px;
+}
+
+.chart{
+    padding-bottom:15px;
+    border-bottom: 1px solid var(--secondary-text);
+}
+
+.monthly-summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monthly-total .title{
+    font-size:var(--font-size);
+    color:var(--secondary-text)
+}
+
+.monthly-total .total{
+    font-size: 30px;
+    color: var(--primary-text);
+}
+
+.monthly-increase .increase{
+    text-align: right;
+    color: var(--primary-text);
+    font-weight: 700;
+}
+
+.increase span{
+    color:var(--secondary-text);
+    font-weight: 500;
+}
+
+
+
+
 
 
 
